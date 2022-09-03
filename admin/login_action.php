@@ -1,7 +1,7 @@
 <?php
 
-include "class_user.php";
-$user = new user();
+include "class_admin.php";
+$admin = new admin();
 
     //menangkap data dari form
 if(isset($_POST['submit'])){
@@ -10,7 +10,7 @@ if(isset($_POST['submit'])){
         'password' => $_POST['password'],
     );
 }
-    $exec = $user->login($data);
+    $exec = $admin->login($data);
         // Cek proses login
         if($exec){
             session_start();

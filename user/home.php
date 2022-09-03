@@ -17,8 +17,5 @@ if(!isset($_SESSION['username'])){
 </head>
 <body>
 
-    <!-- Navbar -->
-    
-    <!-- Navbar -->
 </body>
 </html>

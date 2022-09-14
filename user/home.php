@@ -17,8 +17,7 @@ if(!isset($_SESSION['username'])){
     <title>Home</title></title>
 </head>
 <body>
-    <!-- Navbar -->
-<!-- Navbar -->
+   <!-- Navbar -->
 <ul class="nav flex-column">
   <li class="nav-item">
     <a class="nav-link active" aria-current="page" href="#">Active</a>
@@ -34,7 +33,7 @@ if(!isset($_SESSION['username'])){
   </li>
 </ul>
     <!-- Navbar -->
-    <!-- Navbar -->
+ 
 
 
 

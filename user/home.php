@@ -18,26 +18,22 @@ if(!isset($_SESSION['username'])){
 </head>
 <body>
     <!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark pb-3 pt-3">
-  <div class="container-fluid">
-    <a class="navbar-brand">Lomba</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="home.php">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="daftar_Lomba.php">Daftar Lomba</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="profil.php">Profile</a>
-        </li>
-      </ul>
-    </div>
-</nav>
+<!-- Navbar -->
+<ul class="nav flex-column">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="#">Active</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="logout.php">Logout</a>
+  </li>
+</ul>
+    <!-- Navbar -->
     <!-- Navbar -->
 
 

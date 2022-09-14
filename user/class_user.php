@@ -28,6 +28,7 @@ class user extends database {
          or die(mysqli_error($this->conn)); 
          return $qry;
     }
+
 }
 
 
